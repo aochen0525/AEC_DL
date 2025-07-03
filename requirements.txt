@@ -1,0 +1,11 @@
+torch
+torchaudio
+numpy
+math
+scipy
+librosa
+matplotlib
+argparse
+tqdm
+pesq
+pystoi
