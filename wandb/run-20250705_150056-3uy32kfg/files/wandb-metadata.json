@@ -1,0 +1,45 @@
+{
+  "os": "Windows-10-10.0.19045-SP0",
+  "python": "CPython 3.10.10",
+  "startedAt": "2025-07-05T19:00:56.739198Z",
+  "args": [
+    "--mode",
+    "train",
+    "--use_wandb"
+  ],
+  "program": "C:\\Users\\aochen\\Desktop\\Acoustic_DL\\AEC_DL\\scripts\\training.py",
+  "codePath": "scripts\\training.py",
+  "codePathLocal": "scripts\\training.py",
+  "git": {
+    "remote": "https://github.com/aochen0525/AEC_DL.git",
+    "commit": "d96569429d383d18a064a0e82599550858291495"
+  },
+  "email": "aochen@bu.edu",
+  "root": "C:\\Users\\aochen\\Desktop\\Acoustic_DL\\AEC_DL",
+  "host": "ROG",
+  "executable": "C:\\Users\\aochen\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+  "cpu_count": 12,
+  "cpu_count_logical": 24,
+  "gpu": "Quadro RTX 4000",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "999507046400",
+      "used": "245634961408"
+    }
+  },
+  "memory": {
+    "total": "137347371008"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "Quadro RTX 4000",
+      "memoryTotal": "8589934592",
+      "cudaCores": 2304,
+      "architecture": "Turing",
+      "uuid": "GPU-d5d2044e-1d2d-a069-ffae-342fa33dc335"
+    }
+  ],
+  "cudaVersion": "12.9",
+  "writerId": "tgukar6c01zp7vehpzxk9a5ptreo41wc"
+}

@@ -1,5 +1,5 @@
 import sys
-sys.path.append('C:/Users/aochen/Desktop/AudioDL_project')
+sys.path.append('C:/Users/aochen/Desktop/Acoustic_DL/AEC-Challenge')
 
 import torch
 from models.transformer_aec import TransformerAEC
@@ -10,7 +10,7 @@ def test_dimensions():
     print("Testing dimension compatibility...")
     
     # Create dataset and dataloader
-    data_dir = 'AEC-Challenge/datasets/synthetic'
+    data_dir = 'C:/Users/aochen/Desktop/Acoustic_DL/AEC-Challenge/datasets/synthetic'
     dataset = AECChallengeDataset(data_dir, segment_length=1000)  # Small segment for testing
     dataloader = DataLoader(dataset, batch_size=2, shuffle=False)
     

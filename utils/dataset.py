@@ -1,5 +1,5 @@
 import sys
-sys.path.append('C:/Users/aochen/Desktop/AudioDL_project')
+sys.path.append('C:/Users/aochen/Desktop/Acoustic_DL')
 
 import torch
 from torch.utils.data import Dataset

@@ -1,0 +1,28 @@
+2025-07-05 15:00:56,741 INFO    MainThread:11712 [wandb_setup.py:_flush():80] Current SDK version is 0.21.0
+2025-07-05 15:00:56,742 INFO    MainThread:11712 [wandb_setup.py:_flush():80] Configure stats pid to 11712
+2025-07-05 15:00:56,742 INFO    MainThread:11712 [wandb_setup.py:_flush():80] Loading settings from C:\Users\aochen\.config\wandb\settings
+2025-07-05 15:00:56,742 INFO    MainThread:11712 [wandb_setup.py:_flush():80] Loading settings from C:\Users\aochen\Desktop\Acoustic_DL\AEC_DL\wandb\settings
+2025-07-05 15:00:56,742 INFO    MainThread:11712 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-07-05 15:00:56,742 INFO    MainThread:11712 [wandb_init.py:setup_run_log_directory():703] Logging user logs to C:\Users\aochen\Desktop\Acoustic_DL\AEC_DL\wandb\run-20250705_150056-3uy32kfg\logs\debug.log
+2025-07-05 15:00:56,742 INFO    MainThread:11712 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to C:\Users\aochen\Desktop\Acoustic_DL\AEC_DL\wandb\run-20250705_150056-3uy32kfg\logs\debug-internal.log
+2025-07-05 15:00:56,742 INFO    MainThread:11712 [wandb_init.py:init():830] calling init triggers
+2025-07-05 15:00:56,742 INFO    MainThread:11712 [wandb_init.py:init():835] wandb.init called with sweep_config: {}
+config: {'model_type': 'transformer', 'hidden_dim': 512, 'num_layers': 6, 'batch_size': 2, 'epochs': 20, 'learning_rate': 0.0001, '_wandb': {}}
+2025-07-05 15:00:56,742 INFO    MainThread:11712 [wandb_init.py:init():871] starting backend
+2025-07-05 15:00:57,033 INFO    MainThread:11712 [wandb_init.py:init():874] sending inform_init request
+2025-07-05 15:00:57,042 INFO    MainThread:11712 [wandb_init.py:init():882] backend started and connected
+2025-07-05 15:00:57,043 INFO    MainThread:11712 [wandb_init.py:init():953] updated telemetry
+2025-07-05 15:00:57,070 INFO    MainThread:11712 [wandb_init.py:init():977] communicating run to backend with 90.0 second timeout
+2025-07-05 15:00:57,562 INFO    MainThread:11712 [wandb_init.py:init():1029] starting run threads in backend
+2025-07-05 15:00:58,261 INFO    MainThread:11712 [wandb_run.py:_console_start():2458] atexit reg
+2025-07-05 15:00:58,261 INFO    MainThread:11712 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-07-05 15:00:58,261 INFO    MainThread:11712 [wandb_run.py:_redirect():2375] Wrapping output streams.
+2025-07-05 15:00:58,262 INFO    MainThread:11712 [wandb_run.py:_redirect():2398] Redirects installed.
+2025-07-05 15:00:58,263 INFO    MainThread:11712 [wandb_init.py:init():1075] run started, returning control to user process
+2025-07-06 22:19:12,200 INFO    MainThread:11712 [wandb_run.py:_finish():2224] finishing run aochen0525-bu/acoustic-echo-cancellation/3uy32kfg
+2025-07-06 22:19:12,200 INFO    MainThread:11712 [wandb_run.py:_atexit_cleanup():2423] got exitcode: 0
+2025-07-06 22:19:12,201 INFO    MainThread:11712 [wandb_run.py:_restore():2405] restore
+2025-07-06 22:19:12,201 INFO    MainThread:11712 [wandb_run.py:_restore():2411] restore done
+2025-07-06 22:19:12,695 INFO    MainThread:11712 [wandb_run.py:_footer_history_summary_info():3903] rendering history
+2025-07-06 22:19:12,695 INFO    MainThread:11712 [wandb_run.py:_footer_history_summary_info():3935] rendering summary
+2025-07-06 22:19:12,695 INFO    MainThread:11712 [wandb_run.py:_footer_sync_info():3864] logging synced files
